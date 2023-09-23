@@ -7,14 +7,6 @@
     margin: 0;
 }
 
-body {
-    background-image: url(/assets/img/ICT.jpg);
-    background-position: center center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-
 
 /* scrollbar */
 
@@ -34,6 +26,31 @@ body {
 
 /* --- header --- */
 
+header {
+    width: 90%;
+    max-width: 1024px;
+    margin: 20px auto;
+    border-bottom: 1px solid #000;
+}
+
+img.ict {
+    /* width: 90%; */
+    max-width: 128px;
+    /* display: block; */
+    margin: 0 20px;
+}
+
+h1.name {
+    font-size: 32px;
+    font-family: 'Pacifico', cursive;
+    word-spacing: 5px;
+    margin: 0 20px 20px 20px;
+}
+
+h1.name span {
+    font-size: 24px;
+    font-family: 'Pacifico', cursive;
+}
 
 
 /* --- main --- */
@@ -45,7 +62,7 @@ main {
     width: 90%;
     max-width: 1024px;
     margin: 0 auto;
-    padding: 50px 10px 30px 10px;
+    padding: 10px;
     background-color: #ffffffbd;
 }
 
@@ -53,14 +70,7 @@ main {
 /* -- details -- */
 
 .details {
-    margin: 40px 0 60px 0;
-}
-
-h1.name {
-    font-size: 32px;
-    font-family: 'Pacifico', cursive;
-    text-align: center;
-    margin-bottom: 60px;
+    margin: 0 0 25px 0;
 }
 
 div.contact {
