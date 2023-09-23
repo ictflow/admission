@@ -33,18 +33,12 @@ header {
     border-bottom: 1px solid #000;
 }
 
-img.ict {
-    /* width: 90%; */
-    max-width: 128px;
-    /* display: block; */
-    margin: 0 20px;
-}
-
 h1.name {
     font-size: 32px;
     font-family: 'Pacifico', cursive;
+    text-align: center;
     word-spacing: 5px;
-    margin: 0 20px 20px 20px;
+    margin: 0 0px 20px 0px;
 }
 
 h1.name span {
@@ -63,7 +57,6 @@ main {
     max-width: 1024px;
     margin: 0 auto;
     padding: 10px;
-    background-color: #ffffffbd;
 }
 
 
@@ -147,7 +140,6 @@ footer {
     max-width: 1024px;
     margin: 0 auto;
     padding: 0 10px 20px 10px;
-    background-color: #ffffffbd;
 }
 
 footer .copyright,
