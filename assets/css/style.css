@@ -142,8 +142,7 @@ footer {
     padding: 0 10px 20px 10px;
 }
 
-footer .copyright,
-footer .clock {
+footer .copyright {
     font-size: 15px;
     line-height: 30px;
     font-family: 'Merriweather', serif;
