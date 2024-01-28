@@ -6,6 +6,8 @@
     padding: 0;
     margin: 0;
     cursor: grab;
+    color: #fff;
+    background-color: #000;
     font-size: 18px;
     line-height: 30px;
     font-family: 'Merriweather', serif;
@@ -32,7 +34,7 @@
 header {
     margin: 0 auto;
     text-align: center;
-    border-bottom: 1px solid #1115;
+    border-bottom: 1px solid #9999;
 }
 
 h1 {
@@ -72,14 +74,14 @@ h3 {
 }
 
 a {
-    color: #000;
+    color: #fff;
     text-decoration: none;
 }
 
 hr {
     width: 50%;
     margin: auto;
-    border-top: 1px dashed #1115;
+    border-top: 1px dashed #000;
 }
 
 /* -- form -- */
@@ -107,24 +109,31 @@ form input[type=number] {
     padding: 0 5px;
     font-size: 0.9em;
     background-color: transparent;
+    border: 1px solid #fff;
+}
+
+form input::placeholder {
+    color: #888;
 }
 
 form input[type=radio] {
-    margin: 0 5px 0 0;
+    margin-right: 5px;
 }
 
 form button {
     width: 40%;
+    max-width: 256px;
     text-transform: uppercase;
     display: block;
     border-radius: 10px;
     padding: 5px;
     margin: 10px auto;
+    border: 2px solid #fff;
 }
 
 form button span {
     font-weight: 600;
-    color: #000;
+    color: #fff;
     letter-spacing: 2px;
 }
 
@@ -140,6 +149,4 @@ footer {
 footer p {
     font-size: 14px;
     line-height: 30px;
-
-
 }
