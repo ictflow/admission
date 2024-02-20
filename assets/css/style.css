@@ -1,57 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
 
 * {
-    padding: 0;
     margin: 0;
-    cursor: grab;
+    padding: 0;
+    cursor: pointer;
     font-size: 18px;
     line-height: 30px;
+    /* font-family: 'Fira Sans', sans-serif; */
     font-family: 'Merriweather', serif;
+}
+
+main {
+    padding: 20px;
+    width: 90vw;
+    max-width: 768px;
+    height: 90vh;
+    overflow-y: scroll;
+
+    font-size: 16px;
+    color: #000;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    /* border: 2px solid #000; */
+    /* border-radius: 10px; */
+    background-color: #ffffffbd;
 }
 
 /* scrollbar */
 
 ::-webkit-scrollbar {
-    width: 5px;
+    width: 2px;
 }
 
 ::-webkit-scrollbar-track {
-    background: #000;
+    background: #0000;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #bdbdbd;
+    background: #000;
     border-radius: 9px;
 }
 
-/* --- header --- */
-
-header {
-    margin: 0 auto;
-    text-align: center;
-    border-bottom: 1px solid #1115;
-}
+/* ---------- */
+/* index.html */
+/* ---------- */
 
 h1 {
-    font-size: 28px;
+    font-size: 30px;
     font-family: 'Pacifico', cursive;
     word-spacing: 5px;
-    margin: 20px 0;
+    letter-spacing: 1px;
+    text-align: center;
+    margin: 20px auto 48px auto;
 }
 
 h1 span {
-    font-size: 22px;
+    font-size: 24px;
     font-family: 'Pacifico', cursive;
-}
-
-/* --- main --- */
-
-main {
-    width: 90%;
-    max-width: 768px;
-    margin: 10px auto;
-    padding: 10px;
 }
 
 h2 {
@@ -60,15 +71,13 @@ h2 {
     text-align: center;
 }
 
-/* -- form -- */
-
 form * {
     font-size: 20px;
     line-height: 30px;
 }
 
 form div {
-    margin: 10px 0;
+    margin: 12px 0;
 }
 
 form div label:first-child {
@@ -84,10 +93,15 @@ form input[type=number] {
     padding: 0 5px;
     font-size: 0.9em;
     background-color: transparent;
+    border: 1px solid #000;
 }
 
 form input[type=radio] {
     margin: 0 5px 0 0;
+}
+
+form input::placeholder {
+    color: #222;
 }
 
 form button {
@@ -105,15 +119,8 @@ form button span {
     letter-spacing: 2px;
 }
 
-/* --- footer --- */
-
-footer {
-    max-width: 896px;
-    margin: 0 auto 20px auto;
-    text-align: center;
-}
-
-footer p {
+p {
     font-size: 14px;
     line-height: 30px;
+    text-align: center;
 }
