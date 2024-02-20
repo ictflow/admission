@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
 
-
 * {
     padding: 0;
     margin: 0;
@@ -26,7 +25,6 @@
     border-radius: 9px;
 }
 
-
 /* --- header --- */
 
 header {
@@ -47,18 +45,13 @@ h1 span {
     font-family: 'Pacifico', cursive;
 }
 
-
 /* --- main --- */
 
 main {
     width: 90%;
     max-width: 768px;
-    margin: 0 auto;
+    margin: 10px auto;
     padding: 10px;
-}
-
-section {
-    margin: 32px 0;
 }
 
 h2 {
@@ -67,27 +60,11 @@ h2 {
     text-align: center;
 }
 
-h3 {
-    margin-bottom: 5px;
-}
-
-a {
-    color: #000;
-    text-decoration: none;
-}
-
-hr {
-    width: 50%;
-    margin: auto;
-    border-top: 1px dashed #1115;
-}
-
 /* -- form -- */
 
 form * {
     font-size: 20px;
     line-height: 30px;
-
 }
 
 form div {
@@ -128,7 +105,6 @@ form button span {
     letter-spacing: 2px;
 }
 
-
 /* --- footer --- */
 
 footer {
@@ -140,6 +116,4 @@ footer {
 footer p {
     font-size: 14px;
     line-height: 30px;
-
-
 }
