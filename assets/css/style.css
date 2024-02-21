@@ -16,20 +16,18 @@ main {
     padding: 20px;
     width: 90vw;
     max-width: 768px;
-    height: 90vh;
+    height: 96vh;
     overflow-y: scroll;
+    scroll-behavior: smooth;
 
     font-size: 16px;
     color: #000;
+    background-color: #ffffffbd;
 
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-
-    /* border: 2px solid #000; */
-    /* border-radius: 10px; */
-    background-color: #ffffffbd;
 }
 
 /* scrollbar */
