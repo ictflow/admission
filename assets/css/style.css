@@ -23,7 +23,7 @@ main {
 
     font-size: 16px;
     color: #000;
-    background-color: #ffffffbd;
+    background-color: #f0f8ff80;
 
     position: absolute;
     top: 50%;
@@ -34,7 +34,7 @@ main {
 /* scrollbar */
 
 ::-webkit-scrollbar {
-    width: 2px;
+    width: 1px;
 }
 
 ::-webkit-scrollbar-track {
@@ -42,7 +42,7 @@ main {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #000;
+    background: #0000;
     border-radius: 9px;
 }
 
@@ -100,7 +100,7 @@ form input[type=radio] {
 }
 
 form input::placeholder {
-    color: #555;
+    color: #000;
 }
 
 form button {
@@ -108,6 +108,7 @@ form button {
     max-width: 180px;
     text-transform: uppercase;
     display: block;
+    background-color: #f0f8ff;
     border: 2px solid #000;
     border-radius: 10px;
     padding: 5px;

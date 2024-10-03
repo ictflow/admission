@@ -4,7 +4,7 @@ particlesJS("particles-js", {
         color: { value: "#000" },
         shape: {
             type: "circle",
-            stroke: { width: 0, color: "#fff" },
+            stroke: { width: 0, color: "#f0f8ff" },
             polygon: { nb_sides: 5 },
             image: { src: "", width: 100, height: 100 }
         },
