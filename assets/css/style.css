@@ -22,7 +22,7 @@ main {
     scroll-behavior: smooth;
 
     font-size: 16px;
-    color: #000;
+    color: #0c0c0c;
     background-color: #f0f8ff80;
 
     position: absolute;
@@ -34,15 +34,15 @@ main {
 /* scrollbar */
 
 ::-webkit-scrollbar {
-    width: 1px;
+    width: 0px;
 }
 
 ::-webkit-scrollbar-track {
-    background: #0000;
+    background: #0c0c0c00;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #0000;
+    background: #0c0c0c00;
     border-radius: 9px;
 }
 
@@ -92,7 +92,7 @@ form input[type=number] {
     padding: 0 5px;
     font-size: 0.9em;
     background-color: transparent;
-    border: 1px solid #000;
+    border: 1px solid #0c0c0c;
 }
 
 form input[type=radio] {
@@ -100,26 +100,24 @@ form input[type=radio] {
 }
 
 form input::placeholder {
-    color: #000;
+    color: #0c0c0c;
 }
 
 form button {
     width: 60%;
-    max-width: 180px;
+    max-width: 200px;
     text-transform: uppercase;
     display: block;
     background-color: #f0f8ff;
-    border: 2px solid #000;
+    border: 2px solid #0c0c0c;
     border-radius: 10px;
     padding: 5px;
     margin: 10px auto;
 }
 
-form button span {
-    font-weight: 600;
-    color: #000;
-    letter-spacing: 2px;
-    margin: 0;
+form button:hover {
+    color: #f0f8ff;
+    background-color: #0c0c0c;
 }
 
 p {

@@ -18,12 +18,8 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <!-- bootstrap css -->
     <link rel="stylesheet" href="assets/css/bootstrap-grid.css">
-    <!-- pageclip css -->
-    <link rel="stylesheet" href="assets/css/pageclip.co.css" media="screen">
     <!-- particles css -->
     <link rel="stylesheet" href="assets/css/particles.css">
-    <!-- font awesome kit -->
-    <script src="assets/js/font-awesome-kit.js"></script>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <!-- Google tag (gtag.js) --- done -->
@@ -41,36 +37,34 @@
         <h1> ICT Flow <span>by</span> Jahid </h1>
 
         <section class="themed-grid-col">
-            <form action="https://send.pageclip.co/YUuwE87lZcj7VY8wzdAT1x3F1fVy4NXF/student-admission" class="pageclip-form row" method="post">
-                <!-- <div class="col-12 themed-grid-col">
-                    <h2>Get Your Admission</h2>
-                </div> -->
+            <form id="admissionForm" class="row" method="post">
+
                 <div class="col-md-4 themed-grid-col">
-                    <label for="name">Student Name</label>
+                    <label>Student Name</label>
                 </div>
                 <div class="col-md-8 themed-grid-col">
                     <input type="text" name="Name" maxlength="40" placeholder="Full Name" required>
                 </div>
                 <div class="col-md-4 themed-grid-col">
-                    <label for="father name">Father Name</label>
+                    <label>Father Name</label>
                 </div>
                 <div class="col-md-8 themed-grid-col">
-                    <input type="text" name="Father Name" maxlength="40" placeholder="Father Name" required>
+                    <input type="text" name="FatherName" maxlength="40" placeholder="Father Name" required>
                 </div>
                 <div class="col-md-4 themed-grid-col">
-                    <label for="mother name">Mother Name</label>
+                    <label>Mother Name</label>
                 </div>
                 <div class="col-md-8 themed-grid-col">
-                    <input type="text" name="Mother Name" maxlength="40" placeholder="Mother Name" required>
+                    <input type="text" name="MotherName" maxlength="40" placeholder="Mother Name" required>
                 </div>
                 <div class="col-md-4 themed-grid-col">
-                    <label for="college name">College Name</label>
+                    <label>College Name</label>
                 </div>
                 <div class="col-md-8 themed-grid-col">
-                    <input type="text" name="College Name" maxlength="50" placeholder="College Name" required>
+                    <input type="text" name="CollegeName" maxlength="50" placeholder="College Name" required>
                 </div>
                 <div class="col-md-4 themed-grid-col">
-                    <label for="batch">Batch</label>
+                    <label>Batch</label>
                 </div>
                 <div class="col-md-8 themed-grid-col row">
                     <span class="col-sm-6 themed-grid-col">
@@ -83,7 +77,7 @@
                     </span>
                 </div>
                 <div class="col-md-4 themed-grid-col">
-                    <label for="group">Group</label>
+                    <label>Group</label>
                 </div>
                 <div class="col-md-8 themed-grid-col row">
                     <span class="col-sm-12 themed-grid-col">
@@ -100,49 +94,49 @@
                     </span>
                 </div>
                 <div class="col-md-4 themed-grid-col">
-                    <label for="date of birth">Date of Birth</label>
+                    <label>Date of Birth</label>
                 </div>
                 <div class="col-md-8 themed-grid-col">
-                    <input type="date" name="Date of Birth" min="2006-01-01" max="2010-12-31" placeholder="mm/dd/yyyy" required>
+                    <input type="date" name="DateOfBirth" min="2006-01-01" max="2010-12-31" placeholder="mm/dd/yyyy" required>
                 </div>
                 <div class="col-md-4 themed-grid-col">
-                    <label for="phone number">Phone Number</label>
+                    <label>Phone Number</label>
                 </div>
                 <div class="col-md-8 themed-grid-col">
-                    <input type="tel" name="Phone Number" pattern="01[0-9]{9}" placeholder="01987654321" required>
+                    <input type="tel" name="PhoneNumber" pattern="01[0-9]{9}" placeholder="01987654321" required>
                 </div>
                 <div class="col-md-4 themed-grid-col">
-                    <label for="guardian phone">Guardian Number</label>
+                    <label>Guardian Number</label>
                 </div>
                 <div class="col-md-8 themed-grid-col">
-                    <input type="tel" name="Guardian Phone" pattern="01[0-9]{9}" placeholder="01987654321" required>
+                    <input type="tel" name="GuardianPhone" pattern="01[0-9]{9}" placeholder="01987654321" required>
                 </div>
                 <div class="col-md-4 themed-grid-col">
-                    <label for="school">School Name</label>
+                    <label>School Name</label>
                 </div>
                 <div class="col-md-8 themed-grid-col">
-                    <input type="text" name="School Name" maxlength="50" placeholder="School Name" required>
+                    <input type="text" name="SchoolName" maxlength="50" placeholder="School Name" required>
                 </div>
                 <div class="col-md-4 themed-grid-col">
-                    <label for="ssc result">SSC Result</label>
+                    <label>SSC Result</label>
                 </div>
                 <div class="col-md-8 themed-grid-col">
-                    <input type="number" name="SSC Result" min="1" max="5" step="any" placeholder="SSC GPA" required>
+                    <input type="number" name="SSCresult" min="1" max="5" step="any" placeholder="SSC GPA" required>
                 </div>
                 <div class="col-md-4 themed-grid-col">
-                    <label for="email">Email</label>
+                    <label>Email</label>
                 </div>
                 <div class="col-md-8 themed-grid-col">
                     <input type="email" name="Email" maxlength="30" placeholder="youremail@gmail.com">
                 </div>
                 <div class="col-md-4 themed-grid-col">
-                    <label for="address">Home Address</label>
+                    <label>Home Address</label>
                 </div>
                 <div class="col-md-8 themed-grid-col">
                     <input type="text" name="Address" maxlength="256" placeholder="Full Address" required>
                 </div>
                 <div class="col-md-4 themed-grid-col">
-                    <label for="location">Location</label>
+                    <label>Location</label>
                 </div>
                 <div class="col-md-8 themed-grid-col row">
                     <span class="col-sm-12 themed-grid-col">
@@ -159,10 +153,10 @@
                     </span>
                 </div>
                 <div class="col-md-12 themed-grid-col">
-                    <button type="submit" class="pageclip-form__submit">
-                        <span>SUBMIT</span>
-                    </button>
+                    <button name="btn" type="submit"> SUBMIT </button>
+                    <p id="res"></p>
                 </div>
+
             </form>
         </section>
 
@@ -173,8 +167,6 @@
     <!-- particles -->
     <script src="assets/js/particles.min.js"></script>
     <script src="assets/js/particles.js"></script>
-    <!-- pageclip javascript -->
-    <script src="assets/js/pageclip.co.js" charset="utf-8"></script>
     <!-- custom javascript -->
     <script src="assets/js/script.js"></script>
 
