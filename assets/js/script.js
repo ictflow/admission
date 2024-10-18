@@ -18,7 +18,7 @@ form.addEventListener('submit', function (event) {
 
     submitButton.innerText = 'Submitting...';
 
-    fetch('https://script.google.com/macros/s/AKfycbzApa_a5seKGdrk6g0LSKsYtmh5ABs0AIc57wM5zwtNGFon1MXZ8fweaBohzu7bP716/exec', {
+    fetch('https://script.google.com/macros/s/AKfycbwMup12MILhxB6PtibLTVSx1-xYQbo_LnLVEowmTuhFi-UjcojT-M8hg60vzxVVvHHDSw/exec', {
         method: 'POST',
         body: formData,
     })
