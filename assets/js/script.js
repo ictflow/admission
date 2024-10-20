@@ -40,7 +40,7 @@ form.addEventListener('submit', function (event) {
 
             setTimeout(() => {
                 resElement.innerText = '';
-            }, 50000);
+            }, 5000);
         })
         .catch(error => {
 
