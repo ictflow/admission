@@ -1,3 +1,3 @@
 # Student Admission
 
-## ICT Flow by Jahid
+Get admitted by filling out the [form](https://ictflow.github.io/admission/).
